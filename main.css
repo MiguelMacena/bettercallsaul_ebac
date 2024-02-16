@@ -1,0 +1,323 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header ,
+section h2,
+section h3,
+form button{
+
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: normal;
+
+}
+
+body,
+input, 
+textarea{
+
+    font-family: "Hanken Grotesk", sans-serif;
+
+}
+
+header {
+
+    padding: 0;
+    background-color: whitesmoke;
+    color: whitesmoke;
+
+}
+
+header  {
+
+    font-weight: normal;
+    position: fixed;
+    width: 100%;
+
+}
+
+
+header li {
+
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    
+
+}
+
+header nav li a {
+
+    color: #001421;
+    text-decoration: none;
+    font-size: 3rem;
+
+}
+
+.container {
+
+    max-width: 100%;
+    width: 100%;
+
+
+
+}
+
+header .container,
+section.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+header img {
+
+    width: 8%;
+
+}
+
+.banner-principal {
+
+    width: 100%;
+
+}
+
+#about {
+
+    background-color: #242B33;
+    width: 100%;
+
+
+}
+
+.imagem-sobre {
+
+    width: 100%;
+    padding: 9%;
+
+}
+
+.do-lado {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.do-lado article {
+
+    width: 50%;
+
+}
+
+.quem {
+
+    display: block
+
+}
+
+.do-lado article h2{
+
+    font-size: 4.5rem;
+    padding: 7%;
+    color: #BDA476;
+    text-decoration: solid;
+
+}
+
+.do-lado article p{
+
+    width: 80%;
+    font-size: 2rem;
+    padding: 0%;
+    color: whitesmoke;
+
+}
+
+#services {
+
+    background-color: #001521 ;
+
+}
+
+.banner-servicos {
+
+    position: center;
+    background-color: #BDA476;
+    color: transparent;
+
+}
+
+.servico-h2 {
+
+    font-size: 4.5rem;
+    padding: 4rem 0rem 0rem;
+    color:#BDA476 ;
+
+
+}
+
+.servicos-de-lado {
+
+    display: flex;
+
+}
+
+.servicos-de-lado article {
+
+    width: 55%;
+    display: block;
+    justify-content: space-between;
+    padding: 2.5rem;
+    margin: 5rem;
+    
+    
+
+}
+
+.services-p {
+
+    width: 33,3%;
+    justify-content: space-between;
+    padding: 2rem;
+    color: #BDA476;
+    font-size: 1.5rem;
+    
+
+}
+
+.services-h3 {
+
+    width:33,3% ;
+    padding: 4rem 0rem 0rem;
+    color: #BDA476;
+    font-size: 3rem;
+    
+
+}
+
+.alibi-de-lado {
+
+    width: 85%;
+    padding: 0rem 0rem 6rem;
+
+}
+
+.liberta-lado  {
+
+    width: 85%;
+    padding: 0rem 0rem 0rem;
+
+}
+
+.negocio-de-lado {
+
+    width: 85%;
+    padding: 0rem 0rem 3rem;
+
+}
+
+#contact {
+
+    background-color: #242B33;
+
+}
+
+.contato-de-lado{
+
+    display: block;
+    padding: 0rem 0rem 0rem 5rem;
+
+}
+.contato-de-lado article h3 form{
+
+    display: block;
+
+}
+
+.form-top {
+
+    font-size: 3rem;
+    padding: 4rem 4rem 0rem 0rem;
+    color: whitesmoke;
+    text-decoration: underline;
+
+}
+
+form {
+
+    border-color: #BDA476;
+    border: 1rem;
+
+}
+
+.form-contato {
+
+    display: inline-grid;
+    padding: 1rem 13rem 2rem 9rem;
+    width: 52%;
+
+
+}
+
+.form-contato input textarea button {
+
+    justify-content: space-between;
+    padding: 1.5rem 2rem 1rem;
+    
+}
+.input-contato {
+
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+    border-color: #BDA476;
+    background-color:#001521;
+    color: whitesmoke;
+    font-size: 1.15rem;
+    
+    
+
+}    
+
+.text-contato {
+
+    width: 100%;
+    height: 25rem;
+    border-radius: 1rem;
+    background-color:#001521;
+    border-color: #BDA476;
+    color: whitesmoke;
+    font-size: 1.15rem;
+    text-decoration: none;
+
+}
+
+.botao-form {
+
+    width: 100%;
+    background-color: #BDA476;
+    cursor: pointer;
+    padding: 1.2rem;
+    font-size: 1.15rem;
+
+}
+
+.botao-form:hover {
+
+    background-color: #b8872e;
+
+}
+
+.rodape {
+
+    width: 100%;
+    background-color:whitesmoke;
+}
